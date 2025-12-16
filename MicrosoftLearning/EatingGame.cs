@@ -15,8 +15,8 @@ int foodX = 0;
 int foodY = 0;
 
 // Available player and food strings
-string[] states = { "('-')", "(^-^)", "(X_X)" };
-string[] foods = { "@@@@@", "$$$$$", "#####" };
+string[] states = ["('-')", "(^-^)", "(X_X)"];
+string[] foods = ["@@@@@", "$$$$$", "#####"];
 
 // Current player string displayed in the Console
 string player = states[0];
